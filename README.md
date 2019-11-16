@@ -51,6 +51,9 @@ Num | Hex | Bs6 | Bs8
 5297893 | 50d6e5 | gaduxevu | gayensan
 9990788 | 987284 | vibetiba | vunjifu
 
+Pronounce
+---------
+
 On the 6-bit version, consonants are picked to maintain an unique map between
 the pronounce and the writing. Consonants like `x` should be understood as
 `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read
@@ -78,24 +81,6 @@ z          | **z**ebra
  
 Similarly, each syllable must be pronounced in isolation: `kupakare` is `coo -
 pa - ka - re`, not `coo - pa - care`.
-
-Why?
-----
-
-For when you have to type, vocalize or memorize bytes for whatever reason. For
-example, typing a shortened URL in a phone, manually accessing an uuid in a
-database, or memorizing a crypto private key. Sure, that should not happen, but
-if it does, Bitspeak is supposed to make the process slightly less painful,
-as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
-
-1. Typing special characters and uppercase letters in a phone is painful.
-
-2. The pronounce is shorter (kupakare vs heightuppercaseessunderline
-  dollar vs fourfourzerofourtwoeff).
-
-3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?").
-
-[Relevant XKCD](https://imgs.xkcd.com/comics/password_strength.png)
 
 Specification
 -------------
@@ -173,3 +158,21 @@ Bitspeak has two flavors, 6-bit and 8-bit per syllable. They use the following t
 1110 -> aw
 1111 -> ow
 ```
+
+Why?
+----
+
+For when you have to type, vocalize or memorize bytes for whatever reason. For
+example, typing a shortened URL in a phone, manually accessing an uuid in a
+database, or memorizing a crypto private key. Sure, that should not happen, but
+if it does, Bitspeak is supposed to make the process slightly less painful,
+as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
+
+1. Typing special characters and uppercase letters in a phone is painful.
+
+2. The pronounce is shorter (kupakare vs heightuppercaseessunderline
+  dollar vs fourfourzerofourtwoeff).
+
+3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?").
+
+[Relevant XKCD](https://imgs.xkcd.com/comics/password_strength.png)
