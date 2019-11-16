@@ -58,7 +58,7 @@ b          | **b**ad
 t          | **t**ape
 d          | **d**ice
 k          | **k**ing
-g          | **g**game
+g          | **g**ame
 x          | **sh**ower
 j          | **j**oker
 f          | **f**ire
