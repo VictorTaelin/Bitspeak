@@ -3,9 +3,9 @@ Bitspeak
 
 Converts hex strings to pronounceable words. This may be a good format to print
 for small identifiers or data that need to be pronounciated. For example, if we
-store the `0x476ffe` as Base64, it may become something like `hS_$`, which is
+store the `0x44042f` as Base64, it may become something like `hS_$`, which is
 pronounced as *"height uppercase ess underline dollar sign"*. With Bitspeak,
-the same hex becomes "kunizezi", which is much easier to say. That's all...
+the same hex becomes "kupakare", which is much easier to say. That's all...
 
 Usage
 -----
