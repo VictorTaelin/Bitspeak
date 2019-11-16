@@ -174,4 +174,6 @@ as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
 
 3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?").
 
+We're considering using something like that for displaying the unique identifiers of [Formality](https://github.com/moonad/formality) files, a new programming and proof language.
+
 [Relevant XKCD](https://imgs.xkcd.com/comics/password_strength.png)
