@@ -2,10 +2,10 @@ Bitspeak
 ========
 
 Converts hex strings to pronounceable words. This may be a good format to print
-for small identifiers or data that need to be pronounciated. For example, if we
-store the `0x476ffe` as Base64, it may become something like `hS_$`, which is
+small identifiers or data that needs to be pronounciated. For example, if we
+display the `0x44042f` as Base64, it may become something like `hS_$`, which is
 pronounced as *"height uppercase ess underline dollar sign"*. With Bitspeak,
-the same hex becomes "kunizezi", which is much easier to say. That's all...
+the same hex becomes "kupakare", which is much easier to say. That's all...
 
 Usage
 -----
@@ -19,6 +19,8 @@ console.log(bs.bitspeak6ToHex("kunizezi")); // "476ffe"
 
 Examples
 --------
+
+Bitspeak has two versions, 6-bit and 8-bit per syllable. The 6-bit version is more accurate since syllables don't get mixed up, but the 8-bit one is more round since it matches 1 byte per syllable.
 
 Num | Hex | Bs6 | Bs8
 --- | --- | --- | ---
@@ -46,6 +48,29 @@ Num | Hex | Bs6 | Bs8
 2973685 | 2d5ff5 | teguzenu | tuigowzan
 5297893 | 50d6e5 | gaduxevu | gayensan
 9990788 | 987284 | vibetiba | vunjifu
+
+On the 6-bit version, consonants are picked to maintain an unique map between the pronounciation and the writing. Consonants like `x` should be understood as `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read with the `g` sound from `game`, even when they're followed by an `i` or `e`. Here is a table with the proper sounds:
+
+consontant | sounds as in
+---------- | ------------
+p          | **p**ool
+b          | **b**ad
+t          | **t**ape
+d          | **d**ice
+k          | **k**ing
+g          | **g**ame
+x          | **sh**ower
+j          | **j**oker
+f          | **f**ire
+v          | **v**oid
+l          | **l**etter
+r          | **r**at
+m          | **m**ask
+n          | **n**inja
+s          | **s**un
+z          | **z**ebra
+ 
+Similarly, each syllable must be pronounced in isolation: `kupakare` is `coo - pa - ka - re`, not `coo - pa - care`.
 
 Specification
 -------------
