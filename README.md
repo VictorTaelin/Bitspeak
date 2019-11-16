@@ -20,6 +20,8 @@ console.log(bs.bitspeak6ToHex("kunizezi")); // "476ffe"
 Examples
 --------
 
+Bitspeak has two versions, 6-bit and 8-bit per syllable. The 6-bit version is more accurate since syllables don't get mixed up, but the 8-bit one is more round since it matches 1 byte per syllable.
+
 Num | Hex | Bs6 | Bs8
 --- | --- | --- | ---
 16261014 | f81f96 | zipuzigi | zunbowven
@@ -46,6 +48,8 @@ Num | Hex | Bs6 | Bs8
 2973685 | 2d5ff5 | teguzenu | tuigowzan
 5297893 | 50d6e5 | gaduxevu | gayensan
 9990788 | 987284 | vibetiba | vunjifu
+
+Note that the consonants are picked to maintain an unique map between the pronounciation and the writing. Consonants like `x` should be understood as `sh` from `shower`, and consonants like `g` should be read with the `g` sound from `game`, even when they're followed by a `j`.
 
 Specification
 -------------
