@@ -54,8 +54,8 @@ Num | Hex | Bs6 | Bs8
 On the 6-bit version, consonants are picked to maintain an unique map between
 the pronounce and the writing. Consonants like `x` should be understood as
 `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read
-with the `g` sound from `game`, even when they're followed by an `i` or `e`.
-Here is a table with the proper sounds:
+as in `game`, even when they're followed by an `i` or `e`. Here is a table with 
+the proper sounds:
 
 consontant | sounds as in
 ---------- | ------------
