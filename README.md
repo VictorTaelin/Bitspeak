@@ -90,8 +90,8 @@ as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
 
 1. Typing special characters and uppercase letters in a phone is painful.
 
-2. The pronounce is much shorter ("kupakare" vs "height uppercase ess underline
-   dollar sign" vs "four four zero four two eff").
+2. The pronounce is shorter (kupakare vs heightuppercaseessunderline
+  dollar vs fourfourzerofourtwoeff).
 
 3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?")
 
