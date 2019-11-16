@@ -1,19 +1,19 @@
 {
-  "name": "desuhex",
+  "name": "bitspeak",
   "version": "0.1.0",
-  "description": "DesuHex",
+  "description": "Bitspeak",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maiavictor/desuhex.git"
+    "url": "git+https://github.com/maiavictor/bitspeak.git"
   },
   "author": "MaiaVictor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maiavictor/desuhex/issues"
+    "url": "https://github.com/maiavictor/bitspeak/issues"
   },
-  "homepage": "https://github.com/maiavictor/desuhex#readme"
+  "homepage": "https://github.com/maiavictor/bitspeak#readme"
 }
