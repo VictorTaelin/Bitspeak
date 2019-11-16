@@ -20,7 +20,9 @@ console.log(bs.bitspeak6ToHex("kunizezi")); // "476ffe"
 Examples
 --------
 
-Bitspeak has two versions, 6-bit and 8-bit per syllable. The 6-bit version is more accurate since syllables don't get mixed up, but the 8-bit one is more round since it matches 1 byte per syllable.
+Bitspeak has two versions, 6-bit and 8-bit per syllable. The 6-bit version is
+more accurate since syllables don't get mixed up, but the 8-bit one is more
+round since it matches 1 byte per syllable.
 
 Num | Hex | Bs6 | Bs8
 --- | --- | --- | ---
@@ -49,7 +51,11 @@ Num | Hex | Bs6 | Bs8
 5297893 | 50d6e5 | gaduxevu | gayensan
 9990788 | 987284 | vibetiba | vunjifu
 
-On the 6-bit version, consonants are picked to maintain an unique map between the pronounciation and the writing. Consonants like `x` should be understood as `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read with the `g` sound from `game`, even when they're followed by an `i` or `e`. Here is a table with the proper sounds:
+On the 6-bit version, consonants are picked to maintain an unique map between
+the pronounciation and the writing. Consonants like `x` should be understood as
+`sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read
+with the `g` sound from `game`, even when they're followed by an `i` or `e`.
+Here is a table with the proper sounds:
 
 consontant | sounds as in
 ---------- | ------------
@@ -70,7 +76,26 @@ n          | **n**inja
 s          | **s**un
 z          | **z**ebra
  
-Similarly, each syllable must be pronounced in isolation: `kupakare` is `coo - pa - ka - re`, not `coo - pa - care`.
+Similarly, each syllable must be pronounced in isolation: `kupakare` is `coo -
+pa - ka - re`, not `coo - pa - care`.
+
+Why?
+----
+
+For when you have to type, vocalize or memorize bytes for whatever reason. For
+example, typing a shortened URL in a phone, manually accessing an uuid in a
+database, or memorizing a crypto private key. Sure, that should not happen, but
+if it does, Bitspeak is supposed to make the process slightly less painful,
+as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
+
+1. Typing special characters and uppercase letters in a phone is painful.
+
+2. The pronounce is much shorter ("kupakare" vs "height uppercase ess underline
+   dollar sign" vs "four four zero four two eff").
+
+3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?")
+
+![battery-horse](https://imgs.xkcd.com/comics/password_strength.png)
 
 Specification
 -------------
