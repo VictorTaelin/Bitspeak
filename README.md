@@ -17,6 +17,36 @@ console.log(bs.hexToBitspeak6("476ffe")); // "kunizezi"
 console.log(bs.bitspeak6ToHex("kunizezi")); // "476ffe"
 ```
 
+Examples
+--------
+
+Num | Hex | Bs6 | Bs8
+--- | --- | --- | ---
+16261014 | f81f96 | zipuzigi | zunbowven
+4457519 | 44042f | kupakare | kuputow
+2609494 | 27d156 | tuzubugi | tinyegen
+1529246 | 17559e | bunugiji | binganvaw
+14570023 | de5227 | nevutave | yawgitin
+2753998 | 2a05ce | tifagedi | taipanmaw
+5519699 | 543953 | gupevuke | gudongo
+3870500 | 3b0f24 | dimazava | deipowtu
+13033781 | c6e135 | muribanu | mensedan
+15789528 | f0edd8 | zadinexa | zasuiyun
+147010 | 23e42 | pafesupi | pidawki
+7313431 | 6f9817 | xesufage | chowvunbin
+2213186 | 21c542 | tajagupi | temanki
+2145750 | 20bdd6 | tatenegi | taruiyen
+4071640 | 3e20d8 | defipexa | dawtayun
+1974352 | 1e2050 | befipuka | bawtaga
+9512932 | 9127e4 | vakijeva | vetinsu
+4517800 | 44efa8 | kudizila | kusowlun
+12793805 | c337cd | mamejedu | modinmui
+8649854 | 83fc7e | fazemuzi | fozoijaw
+14233703 | d93067 | nikepuve | yondachin
+2973685 | 2d5ff5 | teguzenu | tuigowzan
+5297893 | 50d6e5 | gaduxevu | gayensan
+9990788 | 987284 | vibetiba | vunjifu
+
 Specification
 -------------
 
