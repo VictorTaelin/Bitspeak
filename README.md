@@ -2,7 +2,7 @@ Bitspeak
 ========
 
 Converts hex strings to pronounceable words. This may be a good format to print
-small identifiers or data that needs to be pronounciated. For example, if we
+small identifiers or data that needs to be pronounced. For example, if we
 display the `0x44042f` as Base64, it may become something like `hS_$`, which is
 pronounced as *"height uppercase ess underline dollar sign"*. With Bitspeak,
 the same hex becomes "kupakare", which is much easier to say. That's all...
@@ -52,7 +52,7 @@ Num | Hex | Bs6 | Bs8
 9990788 | 987284 | vibetiba | vunjifu
 
 On the 6-bit version, consonants are picked to maintain an unique map between
-the pronounciation and the writing. Consonants like `x` should be understood as
+the pronounce and the writing. Consonants like `x` should be understood as
 `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read
 with the `g` sound from `game`, even when they're followed by an `i` or `e`.
 Here is a table with the proper sounds:
