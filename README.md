@@ -49,7 +49,27 @@ Num | Hex | Bs6 | Bs8
 5297893 | 50d6e5 | gaduxevu | gayensan
 9990788 | 987284 | vibetiba | vunjifu
 
-Note that the consonants are picked to maintain an unique map between the pronounciation and the writing. Consonants like `x` should be understood as `sh` from `shower`, and consonants like `g` should be read with the `g` sound from `game`, even when they're followed by a `i` or `e`.
+On the 6-bit version, consonants are picked to maintain an unique map between the pronounciation and the writing. Consonants like `x` should be understood as `sh` from `shower`, not `x` from `dex`, and consonants like `g` should be read with the `g` sound from `game`, even when they're followed by a `i` or `e`. Here is a table with the proper sounds:
+
+consontant | sounds as in
+---------- | ------------
+p          | **p**ool
+b          | **b**ad
+t          | **t**ape
+d          | **d**ice
+k          | **k**ing
+g          | **g**game
+x          | **sh**ower
+j          | **j**oker
+f          | **f**ire
+v          | **v**oid
+l          | **l**etter
+r          | **r**at
+m          | **m**ask
+n          | **n**inja
+s          | **s**un
+z          | **z**ebra
+ 
 
 Specification
 -------------
