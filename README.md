@@ -95,7 +95,7 @@ as it is arguably easier to write "kupakare" correctly than "hS_$" or "44042f".
 
 3. It is gentler to human menory as it has less traps ("was it uppercase or lowercase?")
 
-![battery-horse](https://imgs.xkcd.com/comics/password_strength.png)
+[Relevant XKCD](https://imgs.xkcd.com/comics/password_strength.png)
 
 Specification
 -------------
