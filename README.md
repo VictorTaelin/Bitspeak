@@ -70,7 +70,7 @@ n          | **n**inja
 s          | **s**un
 z          | **z**ebra
  
-Similarly, each syllable must be pronounced in propser isolation, so, `kupakare` is `coo - pa - ka - re`, not `coo - pa - care`.
+Similarly, each syllable must be pronounced in isolation: `kupakare` is `coo - pa - ka - re`, not `coo - pa - care`.
 
 Specification
 -------------
