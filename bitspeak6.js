@@ -37,9 +37,11 @@ const hexToBitspeak6 = (hex) => {
   for (var i = 0; i < hex.length; ++i) {
     bits += ("0000" + parseInt(hex[i], 16).toString(2)).slice(-4);
   }
+  // Number of bits before padding
+  var bitCount = bits.length;
 
   while (bits.length % 6 !== 0) {
-    bits = "0" + bits;
+    bits = bits + "0";
   }
 
   var bitspeak6 = "";
@@ -48,30 +50,35 @@ const hexToBitspeak6 = (hex) => {
     bitspeak6 += vowel[bits.slice(i * 6 + 4, i * 6 + 6)];
   }
 
-  return bitspeak6;
+  // Remove last vowel if it only contains padding
+  return bitspeak6.length > 0 && bits.length - bitCount >= 2 ? 
+          bitspeak6.slice(0, -1) : bitspeak6;
 };
 
 const bitspeak6ToHex = (bitspeak6) => {
   var bits = "";
+  var oddLength = bitspeak6.length % 2 != 0;
 
+  if (oddLength) {
+    bitspeak6 += "a"; // 00
+  }
   for (var i = 0; i < bitspeak6.length / 2; ++i) {
     bits += conso[bitspeak6[i * 2 + 0]];
     bits += vowel[bitspeak6[i * 2 + 1]];
   }
 
   while (bits.length % 4 !== 0) {
-    bits = "0" + bits;
+    bits = bits + "0";
   }
-
+  
   var hex = "";
   for (var i = 0; i < bits.length / 4; ++i) {
     hex += parseInt(bits.slice(i * 4, (i + 1) * 4), 2).toString(16);
   }
-
-  while (hex[0] === "0") {
-    hex = hex.slice(1);
+  
+  if (oddLength) {
+    hex = hex.slice(0, -1);
   }
-
   return hex;
 };
 
